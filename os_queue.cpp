@@ -1,5 +1,5 @@
 #include "os_queue.h"
-#include "os_error.h"
+#include "CSAL_SHARED/os_error.h"
 
 int os_queue_init(os_queue_t *queue, int max_elements){
     if(os_queue_create(queue, sizeof(void*), max_elements, 0) < 0)
