@@ -27,8 +27,9 @@ int publish_event(int event, void *ptr);
 void event_management_thread(void *parameters);
 
 /**
- * @brief 
+ * @brief Initialization for event management
 */
+void event_management_init(void *params);
 
 /**
  * @brief Subscribe to a list oe
