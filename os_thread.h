@@ -87,4 +87,5 @@ void os_kill_self_thread(void);
 *   @note Call's hypervisor command to look into something else.
 */
 #define _os_yield() delay(1)
+
 #endif

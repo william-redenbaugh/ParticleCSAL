@@ -2,7 +2,6 @@
 #define _OS_MUTX_H
 
 #include "Particle.h"
-#include "OS/OSMutexKernel.h"
 
 typedef struct os_mut_t{
     Mutex lock;

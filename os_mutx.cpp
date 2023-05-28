@@ -15,7 +15,7 @@ int os_mut_entry(os_mut_t *mut, uint32_t timeout_ms){
     if(mut == NULL){
         return OS_RET_NULL_PTR;
     }
-    mut->lock.try_lock()
+    mut->lock.try_lock();
 
     return OS_RET_OK;
 }
@@ -44,5 +44,3 @@ int os_mut_exit(os_mut_t *mut){
 
     return OS_RET_OK;
 }
-
-#endif
