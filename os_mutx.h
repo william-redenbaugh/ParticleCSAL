@@ -7,7 +7,15 @@ typedef struct os_mut_t{
     Mutex lock;
 }os_mut_t;
 
+/**
+ * @brief Initializes our mutex
+*/
 int os_mut_init(os_mut_t *mut);
+
+/**
+ * @brief Deinitializes our mutex
+*/
+int os_mut_deinit(os_mut_t *mut);
 
 /**
  * @brief Allows us to acquuire our Mutex
