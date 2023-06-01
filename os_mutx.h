@@ -4,7 +4,8 @@
 #include "Particle.h"
 
 typedef struct os_mut_t{
-    Mutex lock;
+    os_mutex_t lock;
+    //Mutex lock;
 }os_mut_t;
 
 /**
