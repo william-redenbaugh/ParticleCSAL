@@ -1,11 +1,11 @@
 #ifndef _OS_TIMER_H
 #define _OS_TIMER_H
 
-#include "CSAL_SHARED/os_error.h"
+#include "global_includes.h"
 
 typedef void *(timer_cb_func_t)(void);
 
-typedef struct os_timer_t{
+typedef struct os_timer{
     Timer *timer;
     timer_cb_func_t timer_cb;
 }os_timer_t;

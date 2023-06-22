@@ -2,12 +2,6 @@
 #define _OS_THREAD_H
 
 #include "Particle.h"
-#include "stdint.h"
-#include "stdbool.h"
-
-typedef struct os_thread_id_s{
-    Thread* handle;
-}os_thread_id_s;
 
 /*!
 * @brief  Thread id value
