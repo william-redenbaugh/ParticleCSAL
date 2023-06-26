@@ -25,7 +25,7 @@ typedef struct os_setbits{
 
 
 typedef struct os_udp_server{
-
+    UDP udp;
 }os_udp_server_t;
 
 
