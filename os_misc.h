@@ -2,6 +2,7 @@
 #define _OS_MISC_H
 
 #include "Particle.h"
-void println(char *str);
+
+#define println(e) printf(e)
 
 #endif

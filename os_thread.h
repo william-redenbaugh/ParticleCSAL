@@ -2,6 +2,7 @@
 #define _OS_THREAD_H
 
 #include "Particle.h"
+#include "platform_cshal.h"
 
 /*!
 * @brief  Thread id value

@@ -3,5 +3,6 @@
 
 #include "os_thread.h"
 #include "os_timer.h"
+#include "os_misc.h"
 
 #endif

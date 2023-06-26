@@ -17,7 +17,6 @@ int os_wifi_connect_sta(char *ssid, char *password) {
 }
 
 int os_wifi_disconnect_sta() {
-  WiFi.disconnect();
   return OS_RET_OK;
 }
 
@@ -51,7 +50,7 @@ int os_wifi_transmit_udp_packet(os_udp_server_t *udp, uint16_t packet_size, uint
     return OS_RET_NULL_PTR;
   }
 
-    return os_ret_ok;
+    return OS_RET_OK;
 }
 
 static inline int read_packet(os_udp_server_t *udp, uint16_t *packet_size, uint8_t *arr){

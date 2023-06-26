@@ -5,12 +5,6 @@
 
 typedef void *(timer_cb_func_t)(void);
 
-typedef struct os_timer{
-    Timer *timer;
-    timer_cb_func_t timer_cb;
-}os_timer_t;
-
-
 /**
  * @brief Initializes a timer module 
  * @param os_timer_t *pointer to timer structure
