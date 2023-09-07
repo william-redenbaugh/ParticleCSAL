@@ -23,7 +23,10 @@ typedef struct os_thread_id_s
 
 typedef struct os_setbits
 {
-
+    os_queue_t queue;
+    int bits;
+    int counter;
+    os_mut_t counter_mut;
 } os_setbits_t;
 
 typedef struct os_udp_server
